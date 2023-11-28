@@ -4,6 +4,7 @@ import { ContainerComponent } from './container/container.component';
 import { TextComponent } from './text/text.component';
 import { NumbersComponent } from './numbers/numbers.component';
 import { DateComponent } from './date/date.component';
+import { JsonComponent } from './json/json.component';
 
 
 
@@ -12,7 +13,8 @@ import { DateComponent } from './date/date.component';
     ContainerComponent,
     TextComponent,
     NumbersComponent,
-    DateComponent
+    DateComponent,
+    JsonComponent
   ],
   imports: [
     CommonModule
