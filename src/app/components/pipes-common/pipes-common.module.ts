@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ContainerComponent } from './container/container.component';
 import { TextComponent } from './text/text.component';
 import { NumbersComponent } from './numbers/numbers.component';
+import { DateComponent } from './date/date.component';
 
 
 
@@ -10,7 +11,8 @@ import { NumbersComponent } from './numbers/numbers.component';
   declarations: [
     ContainerComponent,
     TextComponent,
-    NumbersComponent
+    NumbersComponent,
+    DateComponent
   ],
   imports: [
     CommonModule
