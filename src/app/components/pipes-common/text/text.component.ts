@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./text.component.css']
 })
 export class TextComponent {
-
+  text: string = 'TituLO dE aPLIcaCióN';
 }
