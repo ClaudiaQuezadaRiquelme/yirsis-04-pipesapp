@@ -1,0 +1,20 @@
+<p>Objeto original:</p>
+<ol>
+    <li *ngFor="let item of frutas">
+        {{item}}
+    </li>
+</ol>
+<p>Objeto slice:2</p>
+<ol>
+    <li *ngFor="let item of frutas | slice:2">
+        {{item}}
+    </li>
+</ol>
+<p>Objeto slice:1:3</p>
+<ol>
+    <li *ngFor="let item of frutas | slice:1:3">
+        {{item}}
+    </li>
+</ol>
+<p>Letras original: {{letras}}</p>
+<p>Letras slice:2:4 : {{letras | slice:2:4}}</p>
