@@ -7,6 +7,8 @@ import { DateComponent } from './date/date.component';
 import { JsonComponent } from './json/json.component';
 import { KeyValueComponent } from './key-value/key-value.component';
 import { SliceComponent } from './slice/slice.component';
+import { I18nSelectComponent } from './i18n-select/i18n-select.component';
+import { I18nPluralComponent } from './i18n-plural/i18n-plural.component';
 
 
 
@@ -18,7 +20,9 @@ import { SliceComponent } from './slice/slice.component';
     DateComponent,
     JsonComponent,
     KeyValueComponent,
-    SliceComponent
+    SliceComponent,
+    I18nSelectComponent,
+    I18nPluralComponent
   ],
   imports: [
     CommonModule

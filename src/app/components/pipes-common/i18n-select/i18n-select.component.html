@@ -1,0 +1,6 @@
+<p>Lista de géneros: {{genre}}</p>
+<h2 *ngFor="let item of genre">
+    <span>
+        {{ item | i18nSelect: mensajes}}
+    </span>
+</h2>
