@@ -2,3 +2,9 @@ span {
     color: darkcyan;
     font-weight: bold;
 }
+
+pre {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}

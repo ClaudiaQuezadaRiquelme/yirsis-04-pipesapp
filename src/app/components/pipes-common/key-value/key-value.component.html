@@ -1,0 +1,8 @@
+<p>KeyValue con JSON:</p>
+<p *ngFor="let prop of persona | keyvalue">
+    <span>{{prop | json}}</span>
+</p>
+<p>KeyValue custom format:</p>
+<p *ngFor="let prop of persona | keyvalue">
+    <span>{{prop.key}} - {{prop.value}}</span>
+</p>

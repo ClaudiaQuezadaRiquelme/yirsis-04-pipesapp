@@ -5,6 +5,7 @@ import { TextComponent } from './text/text.component';
 import { NumbersComponent } from './numbers/numbers.component';
 import { DateComponent } from './date/date.component';
 import { JsonComponent } from './json/json.component';
+import { KeyValueComponent } from './key-value/key-value.component';
 
 
 
@@ -14,7 +15,8 @@ import { JsonComponent } from './json/json.component';
     TextComponent,
     NumbersComponent,
     DateComponent,
-    JsonComponent
+    JsonComponent,
+    KeyValueComponent
   ],
   imports: [
     CommonModule
