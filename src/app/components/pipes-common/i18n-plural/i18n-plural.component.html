@@ -1,1 +1,7 @@
-<p>i18n-plural works!</p>
+<h3>
+    {{notificaciones}}
+</h3>
+<h2><span>
+    {{notificaciones | i18nPlural: msje }}
+</span></h2>
+<button class="btn btn-success" (click)="addNotificacion()">Agregar notificación</button>
