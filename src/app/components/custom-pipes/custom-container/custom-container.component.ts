@@ -7,6 +7,8 @@ import { DarkModeService } from '../../../shared/services/dark-mode.service';
   styleUrls: ['./custom-container.component.css']
 })
 export class CustomContainerComponent {
+  grados: number = 32;
+
   constructor(
     private darkModeService: DarkModeService
   ) {}
