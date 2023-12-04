@@ -1,5 +1,2 @@
-<p>DarkMode desde Pipe: 
-    <ng-container *ngIf="getDarkMode; else lightMode;"><span >Dark</span></ng-container>
-    <ng-template #lightMode><span>Light</span></ng-template>
-</p>
+<p>DarkMode desde Pipe: {{ (getDarkMode)? 'Dark' : 'Light' }}</p>
 <button class="btn btn-info" (click)="changeMode()">change mode</button>
