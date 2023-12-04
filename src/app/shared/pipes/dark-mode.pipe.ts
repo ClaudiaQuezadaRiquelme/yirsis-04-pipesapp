@@ -4,11 +4,7 @@ import { Pipe, PipeTransform } from "@angular/core";
     name: 'darkModePipe'
 })
 export class DarkModePipe implements PipeTransform {
-    transform(value: boolean, ...args: any[]) {
-        if(value) {
-            return 'bg-dark text-white';
-        } else {
-            return 'bg-light text-dark';
-        }
+    transform(value: boolean, ...args: any[]): string {
+        return (value) ? 'bg-dark text-white' : 'bg-light text-dark';
     }
 }
