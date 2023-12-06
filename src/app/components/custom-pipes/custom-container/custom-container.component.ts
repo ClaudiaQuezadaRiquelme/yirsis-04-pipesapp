@@ -8,6 +8,7 @@ import { DarkModeService } from '../../../shared/services/dark-mode.service';
 })
 export class CustomContainerComponent {
   grados: number = 32;
+  type: string = 'F';
 
   constructor(
     private darkModeService: DarkModeService
@@ -19,5 +20,9 @@ export class CustomContainerComponent {
 
   changeMode() {
     this.darkModeService.changeMode();
+  }
+
+  changeTemp(value: string): string {
+    return (value === 'c' || value === 'C') ? 'F' : 'C';
   }
 }

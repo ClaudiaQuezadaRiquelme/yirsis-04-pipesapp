@@ -12,6 +12,6 @@ This project comes from [Angular desde cero](https://www.udemy.com/course/angula
 
 - [Bootstrap 5.3](https://getbootstrap.com/)
 - [Angular Pipes](https://angular.io/api?type=pipe)
+- custom pipes
 - modules, services
 - getters
-- interfaces

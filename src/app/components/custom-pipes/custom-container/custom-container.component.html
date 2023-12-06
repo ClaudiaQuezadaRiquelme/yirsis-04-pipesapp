@@ -1,5 +1,6 @@
 <p>DarkMode desde Pipe: {{ (getDarkMode)? 'Dark' : 'Light' }}</p>
 <button class="btn btn-info" (click)="changeMode()">change mode</button>
 <hr>
-<h2>Temperature: {{grados | temperaturePipe: 'F'}}</h2>
+<h2>Temperature: {{grados | temperaturePipe: type}}</h2>
+<button class="btn btn-info" (click)="type = changeTemp(type);">change temperature</button>
 <hr>
