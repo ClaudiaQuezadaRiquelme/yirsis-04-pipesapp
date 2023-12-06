@@ -15,3 +15,4 @@ This project comes from [Angular desde cero](https://www.udemy.com/course/angula
 - custom pipes
 - modules, services
 - getters
+- enums
