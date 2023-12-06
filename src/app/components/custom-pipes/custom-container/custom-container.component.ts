@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DarkModeService } from '../../../shared/services/dark-mode.service';
+import { TemperatureValues } from 'src/app/shared/enums/temperature.enum';
 
 @Component({
   selector: 'app-custom-container',
@@ -8,7 +9,7 @@ import { DarkModeService } from '../../../shared/services/dark-mode.service';
 })
 export class CustomContainerComponent {
   grados: number = 32;
-  type: string = 'F';
+  type: TemperatureValues = TemperatureValues.F;
 
   constructor(
     private darkModeService: DarkModeService
@@ -22,7 +23,7 @@ export class CustomContainerComponent {
     this.darkModeService.changeMode();
   }
 
-  changeTemp(value: string): string {
-    return (value === 'c' || value === 'C') ? 'F' : 'C';
+  changeTemp(value: TemperatureValues): TemperatureValues {
+    return (value === TemperatureValues.C) ? TemperatureValues.F : TemperatureValues.C;
   }
 }
