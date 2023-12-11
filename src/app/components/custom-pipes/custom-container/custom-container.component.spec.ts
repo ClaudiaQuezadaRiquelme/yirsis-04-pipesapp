@@ -1,14 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CustomContainerComponent } from './custom-container.component';
+import { TemperaturePipe } from 'src/app/shared/pipes/temperature.pipe';
 
 describe('CustomContainerComponent', () => {
   let component: CustomContainerComponent;
   let fixture: ComponentFixture<CustomContainerComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [CustomContainerComponent]
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [
+        TemperaturePipe,
+        CustomContainerComponent,
+      ],
     });
     fixture = TestBed.createComponent(CustomContainerComponent);
     component = fixture.componentInstance;

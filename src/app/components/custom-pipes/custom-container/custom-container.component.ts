@@ -5,7 +5,7 @@ import { TemperatureValues } from 'src/app/shared/enums/temperature.enum';
 @Component({
   selector: 'app-custom-container',
   templateUrl: './custom-container.component.html',
-  styleUrls: ['./custom-container.component.css']
+  styleUrls: ['./custom-container.component.css'],
 })
 export class CustomContainerComponent {
   grados: number = 32;

@@ -6,8 +6,8 @@ import { TemperaturePipe } from 'src/app/shared/pipes/temperature.pipe';
 
 @NgModule({
   declarations: [
-    CustomContainerComponent,
     TemperaturePipe,
+    CustomContainerComponent,
   ],
   imports: [
     CommonModule,
